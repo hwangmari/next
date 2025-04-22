@@ -1,12 +1,11 @@
 import ProductList from "@/components/ProductList";
+import ProductTitle from "@/components/ProductTitle";
 
-function ProductPage() {
+export default function ProductPage() {
   return (
     <div>
-      <h1>상품목록 페이지</h1>
+      <ProductTitle title="상품목록 페이지" />
       <ProductList />
     </div>
   );
 }
-
-export default ProductPage;
